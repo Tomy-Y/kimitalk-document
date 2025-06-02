@@ -1,5 +1,5 @@
 ---
-title: ようこそ
+title: キミトーク
 layout: default
 ---
 
