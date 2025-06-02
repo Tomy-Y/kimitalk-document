@@ -3,23 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
-  <header>
-    <h1><a href="/">キミトーク</a></h1>
-    <hr>
+  <header class="site-header">
+    <div class="wrapper">
+      <h1><a href="/">キミトーク開発記録</a></h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
+  <main class="site-content">
     {{ content }}
   </main>
 
-  <hr>
-  <footer>
-    <p>Tomy_Y</p>
-    <p><a href="https://x.com/RaStarStudio">公式Twitter</a></p>
+  <footer class="site-footer">
+    <div class="wrapper">
+      <p>© 2025 RaStar Studio</p>
+      <p><a href="https://x.com/RaStarStudio" target="_blank">公式Twitter</a></p>
+    </div>
   </footer>
 
 </body>
