@@ -25,7 +25,7 @@ layout: default
 サウンドクリエイター：1名
 シナリオ補佐：1名
 ## 開発ツール
-エンジン：Unity、C#
+エンジン：Unity, C#
 ゲームサーバー：Firebase Realtime Database
 バージョン管理システム：Git/GitHub
 シナリオデータ管理：Excel
